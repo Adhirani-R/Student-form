@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registrationform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Students Form</h1>
+
+            <table id="tab">
+                <tr>
+                    <td>Name:</td>
+                    <td><input id="name" type="text">
+                        <span class="nameError">Only Letters Not other characters nor whitespace</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input id="age" type="number">
+                        <span class="ageError">Age must contains only 2 Digit</span>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+
+                        <input type="radio" name="gender" id="Female">Female
+                        <input type="radio" name="gender" id="Male">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select a Course</td>
+                    <td>
+                        <select id="course">
+                            <option>Full Stack Development</option>
+                            <option>Java Programming</option>
+                            <option>Python</option>
+                            <option>Data Analyst</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input id="email" type="email">
+                        <span class="emailError">Please provide valid Gmail Address</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input id="submit" type="submit"></th>
+                </tr>
+            </table>
+        </form>
+
+        <table id="tabdb">
+            <tr id="tr">
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Selected Course</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
+<script src="studentreg.js"></script>

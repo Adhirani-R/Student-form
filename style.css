@@ -1,0 +1,76 @@
+body
+{
+    background-color: aquamarine;
+}
+.container
+{
+    display: grid;      
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nameError,.ageError,.emailError 
+{
+    color: red;
+    display: none;
+    font-size: 12px;    
+}
+
+h1 {
+    text-align: center;
+}
+
+#tab {
+    
+    border: solid gray 1px;
+    margin-bottom: 5%;
+}
+
+td,
+tr {
+    border: solid gray 1px;
+    height: 10px;
+    
+    padding: 5px;
+
+
+}
+#tabdb td
+{
+    text-align: center;     
+}
+
+#tabdb th{
+    font-weight: bold;
+    width: 150px;
+    border: solid gray 1px;
+    padding: 1%; 
+    text-align: center;
+}
+input,
+select {
+    padding: 5px;
+    background-color: rgba(161, 240, 223, 0.705);
+}
+input{
+    border: none;
+}
+select {
+    width: 183px;
+}
+
+#submit {
+    border-radius: 10pX;
+    background-color: darkcyan;
+    width: 80%;
+    height: 125%;
+    margin-left: 35px;
+   
+}
+#submit:hover
+{
+    background-color: rgb(126, 119, 119);
+    color: white;
+}
